@@ -10,22 +10,15 @@ body {
     
     
 }
-
 .clearfix::after {
     content: "";
     clear: both;
     display: block;
 }
-
-.content {
-    min-height: calc(100vh - 70px);
-}
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
 }
-
-
 header {
     height: 28% ;
     width: 100% ;
@@ -48,23 +41,23 @@ header {
     float: left;
 
 }
-
-
-
-
 #links {
    float: right;
    margin-right: 299px;
    margin-top: 65px;
 }
-
 a {
     text-decoration: none;
     color: #777777;
     
 }
-
-
+.footer {
+    height: 50px;
+    margin-top: 5% ;
+    border-top: 8px solid;
+    border-color: #4aaaa5;
+    background-color: #666666;
+  }
 .middle {
 
     width: 960px;
@@ -76,11 +69,10 @@ a {
     border-color: #dddddd;
 
 }
-
-#bio {
+.content {
     margin: 2%;
 }
-#bioheader {
+#sectionheader {
     color: #4aaaa5;
     padding-bottom: 2%;
     border-bottom: 2px solid;
@@ -91,20 +83,35 @@ a {
     float: left; 
     margin-right: 2%;
 }
-
-
-
-
-
 input[type=text] {
-
-
-
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin: 8px 0;
+    font-size: large;
+    
+}
+input[type=submit]:hover {
+    background-color: #408f8b;
+}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-.footer {
-    height: 50px;
-    border-top: 8px solid;
-    border-color: #4aaaa5;
-    background-color: #666666;
-  }
